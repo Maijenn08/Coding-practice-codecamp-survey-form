@@ -1,0 +1,54 @@
+** start of undefined **
+
+<!DOCTYPE=html>
+<html lang="en">
+  <head>
+    <title>INSTINCT dog food survey</title>
+    <meta charset="UTF-8"></meta>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">INSTINCT Dog Food Survey Form</h1> 
+    <p id="description">Please help us help your fur babies</p>
+    <hr>
+    <form id="survey-form">
+      <label id="name-label">Your Name<input id="name" type="text" placeholder="Enter Your Name" required></input></label>
+      <label id="email-label">Your Email<input id="email" type="email" placeholder="Enter Your Email" required></input></label> <hr>
+      <label id="number-label">Pet's Age (in years)<input id="number" type="number" min="0" max="25" placeholder="0-25"></input></label>
+      <label id="dropdown-label">What are you currently feeding your dog?</label>
+        <select id="dropdown">
+        <option>Dry Kibble</option>
+        <option>Wet Food</option>
+        <option>Human Grade</option>
+        <option>Mixture of 2 or more</option>
+      </select>
+      <label>How many dogs do you have?</label>
+      <label><input type="radio" name="own" value="1">1-2</input></label>
+      <label><input type="radio" name="own" value="2">3-4</input></label>
+      <label><input type="radio" name="own" value="3">5 or more</input></label>
+      <label>What products would you like to see more of at your local pet stores? (Check all that applies)</label>
+      <label><input type="checkbox" value="0">Dry Kibble</label>
+      <label><input type="checkbox" value="1">Frozen Chicken Toppers</label>
+      <label><input type="checkbox" value="2">Freeze Dried Raw Bites</label>
+      <label><input type="checkbox" value="3">Dental Chews</label>
+      <hr>
+      <label>Additional comments or concerns<textarea id="area-comments"></textarea></label>
+      <input type="submit" id="submit"
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label {display:block;margin: 0.5rem 0;}
+h1 {padding: 0 20; text-align: center; color: rgb(0,0,50)}
+p {text-align:center;}
+body {background-color: rgb(60,100,150); padding-left: 20px;)
+
+
+
+** end of undefined **
+
